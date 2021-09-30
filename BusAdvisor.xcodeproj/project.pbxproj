@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1252DC208A4C6F001BD502 /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1252DB208A4C6F001BD502 /* PolicyViewController.swift */; };
+		1E1252DE208A4C8A001BD502 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1252DD208A4C8A001BD502 /* InstructionViewController.swift */; };
+		1E1252E2208A5B50001BD502 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1252E1208A5B50001BD502 /* SettingController.swift */; };
+		246A8FFE27054A29005DC06B /* BusAdvisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A8FFD27054A29005DC06B /* BusAdvisorTests.swift */; };
+		4A134392207F854400EF78D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A134391207F854400EF78D0 /* AppDelegate.swift */; };
+		4A134394207F854400EF78D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A134393207F854400EF78D0 /* ViewController.swift */; };
+		4A134399207F854400EF78D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A134398207F854400EF78D0 /* Assets.xcassets */; };
+		4A1343A6207FA1F400EF78D0 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1343A5207FA1F400EF78D0 /* LocationSearchTable.swift */; };
+		4A547F432090E5690052DFE9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A547F422090E5690052DFE9 /* MapKit.framework */; };
+		4A547F462090F9C60052DFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A547F442090F9C60052DFE9 /* Main.storyboard */; };
+		4AD12B01208A62FC003B3AB6 /* LandmarkAndAds.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12B00208A62FC003B3AB6 /* LandmarkAndAds.json */; };
+		4AD12B03208A631C003B3AB6 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD12B02208A631C003B3AB6 /* Artwork.swift */; };
+		4AF4C0AA2094B22B00C9391E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AF4C0AC2094B22B00C9391E /* Localizable.strings */; };
+		DF97D611208F74D5004602C5 /* ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF97D610208F74D5004602C5 /* ArtworkView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		246A900027054A29005DC06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A134386207F854400EF78D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A13438D207F854400EF78D0;
+			remoteInfo = BusAdvisor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E1252DB208A4C6F001BD502 /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		1E1252DD208A4C8A001BD502 /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		1E1252E1208A5B50001BD502 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		246A8FFB27054A29005DC06B /* BusAdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusAdvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		246A8FFD27054A29005DC06B /* BusAdvisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusAdvisorTests.swift; sourceTree = "<group>"; };
+		246A8FFF27054A29005DC06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A13438E207F854400EF78D0 /* BusAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A134391207F854400EF78D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A134393207F854400EF78D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A134398207F854400EF78D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A13439D207F854400EF78D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1343A5207FA1F400EF78D0 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		4A1D5DFC209222C900474D13 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "MapKitSearch/zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4A547F422090E5690052DFE9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4A547F452090F9C60052DFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MapKitSearch/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AD12B00208A62FC003B3AB6 /* LandmarkAndAds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LandmarkAndAds.json; sourceTree = "<group>"; };
+		4AD12B02208A631C003B3AB6 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		4AF4C0AB2094B22B00C9391E /* zh-Hans */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; lineEnding = 2; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4AF4C0AE2094B24D00C9391E /* Base */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DF97D610208F74D5004602C5 /* ArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246A8FF827054A29005DC06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A13438B207F854400EF78D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A547F432090E5690052DFE9 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246A8FFC27054A29005DC06B /* BusAdvisorTests */ = {
+			isa = PBXGroup;
+			children = (
+				246A8FFD27054A29005DC06B /* BusAdvisorTests.swift */,
+				246A8FFF27054A29005DC06B /* Info.plist */,
+			);
+			path = BusAdvisorTests;
+			sourceTree = "<group>";
+		};
+		4A134385207F854400EF78D0 = {
+			isa = PBXGroup;
+			children = (
+				4A134390207F854400EF78D0 /* BusAdvisor */,
+				246A8FFC27054A29005DC06B /* BusAdvisorTests */,
+				4A13438F207F854400EF78D0 /* Products */,
+				4A547F3E2090E4E40052DFE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A13438F207F854400EF78D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A13438E207F854400EF78D0 /* BusAdvisor.app */,
+				246A8FFB27054A29005DC06B /* BusAdvisorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A134390207F854400EF78D0 /* BusAdvisor */ = {
+			isa = PBXGroup;
+			children = (
+				4A547F442090F9C60052DFE9 /* Main.storyboard */,
+				4AD12B02208A631C003B3AB6 /* Artwork.swift */,
+				DF97D610208F74D5004602C5 /* ArtworkView.swift */,
+				1E1252E1208A5B50001BD502 /* SettingController.swift */,
+				4A134391207F854400EF78D0 /* AppDelegate.swift */,
+				4A134393207F854400EF78D0 /* ViewController.swift */,
+				1E1252DB208A4C6F001BD502 /* PolicyViewController.swift */,
+				1E1252DD208A4C8A001BD502 /* InstructionViewController.swift */,
+				4A1343A5207FA1F400EF78D0 /* LocationSearchTable.swift */,
+				4A134398207F854400EF78D0 /* Assets.xcassets */,
+				4A13439D207F854400EF78D0 /* Info.plist */,
+				4AD12B00208A62FC003B3AB6 /* LandmarkAndAds.json */,
+				4AF4C0AC2094B22B00C9391E /* Localizable.strings */,
+			);
+			path = BusAdvisor;
+			sourceTree = "<group>";
+		};
+		4A547F3E2090E4E40052DFE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A547F422090E5690052DFE9 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		246A8FFA27054A29005DC06B /* BusAdvisorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246A900427054A29005DC06B /* Build configuration list for PBXNativeTarget "BusAdvisorTests" */;
+			buildPhases = (
+				246A8FF727054A29005DC06B /* Sources */,
+				246A8FF827054A29005DC06B /* Frameworks */,
+				246A8FF927054A29005DC06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246A900127054A29005DC06B /* PBXTargetDependency */,
+			);
+			name = BusAdvisorTests;
+			productName = BusAdvisorTests;
+			productReference = 246A8FFB27054A29005DC06B /* BusAdvisorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A13438D207F854400EF78D0 /* BusAdvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1343A0207F854400EF78D0 /* Build configuration list for PBXNativeTarget "BusAdvisor" */;
+			buildPhases = (
+				4A13438A207F854400EF78D0 /* Sources */,
+				4A13438B207F854400EF78D0 /* Frameworks */,
+				4A13438C207F854400EF78D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusAdvisor;
+			productName = MapKitSearch;
+			productReference = 4A13438E207F854400EF78D0 /* BusAdvisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A134386207F854400EF78D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = COMP208;
+				TargetAttributes = {
+					246A8FFA27054A29005DC06B = {
+						CreatedOnToolsVersion = 12.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A13438D207F854400EF78D0;
+					};
+					4A13438D207F854400EF78D0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4A134389207F854400EF78D0 /* Build configuration list for PBXProject "BusAdvisor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 4A134385207F854400EF78D0;
+			productRefGroup = 4A13438F207F854400EF78D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A13438D207F854400EF78D0 /* BusAdvisor */,
+				246A8FFA27054A29005DC06B /* BusAdvisorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246A8FF927054A29005DC06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A13438C207F854400EF78D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A547F462090F9C60052DFE9 /* Main.storyboard in Resources */,
+				4A134399207F854400EF78D0 /* Assets.xcassets in Resources */,
+				4AF4C0AA2094B22B00C9391E /* Localizable.strings in Resources */,
+				4AD12B01208A62FC003B3AB6 /* LandmarkAndAds.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246A8FF727054A29005DC06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246A8FFE27054A29005DC06B /* BusAdvisorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A13438A207F854400EF78D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1343A6207FA1F400EF78D0 /* LocationSearchTable.swift in Sources */,
+				4A134394207F854400EF78D0 /* ViewController.swift in Sources */,
+				4AD12B03208A631C003B3AB6 /* Artwork.swift in Sources */,
+				DF97D611208F74D5004602C5 /* ArtworkView.swift in Sources */,
+				4A134392207F854400EF78D0 /* AppDelegate.swift in Sources */,
+				1E1252DC208A4C6F001BD502 /* PolicyViewController.swift in Sources */,
+				1E1252DE208A4C8A001BD502 /* InstructionViewController.swift in Sources */,
+				1E1252E2208A5B50001BD502 /* SettingController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		246A900127054A29005DC06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A13438D207F854400EF78D0 /* BusAdvisor */;
+			targetProxy = 246A900027054A29005DC06B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A547F442090F9C60052DFE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A547F452090F9C60052DFE9 /* Base */,
+				4A1D5DFC209222C900474D13 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF4C0AC2094B22B00C9391E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF4C0AB2094B22B00C9391E /* zh-Hans */,
+				4AF4C0AE2094B24D00C9391E /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		246A900227054A29005DC06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BusAdvisorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = julia.BusAdvisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusAdvisor.app/BusAdvisor";
+			};
+			name = Debug;
+		};
+		246A900327054A29005DC06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BusAdvisorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = julia.BusAdvisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusAdvisor.app/BusAdvisor";
+			};
+			name = Release;
+		};
+		4A13439E207F854400EF78D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A13439F207F854400EF78D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A1343A1207F854400EF78D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Y3MVDF86;
+				INFOPLIST_FILE = BusAdvisor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COMP208GroupProjectFinal.Demo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A1343A2207F854400EF78D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Y3MVDF86;
+				INFOPLIST_FILE = BusAdvisor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COMP208GroupProjectFinal.Demo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246A900427054A29005DC06B /* Build configuration list for PBXNativeTarget "BusAdvisorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246A900227054A29005DC06B /* Debug */,
+				246A900327054A29005DC06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A134389207F854400EF78D0 /* Build configuration list for PBXProject "BusAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A13439E207F854400EF78D0 /* Debug */,
+				4A13439F207F854400EF78D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1343A0207F854400EF78D0 /* Build configuration list for PBXNativeTarget "BusAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1343A1207F854400EF78D0 /* Debug */,
+				4A1343A2207F854400EF78D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A134386207F854400EF78D0 /* Project object */;
+}

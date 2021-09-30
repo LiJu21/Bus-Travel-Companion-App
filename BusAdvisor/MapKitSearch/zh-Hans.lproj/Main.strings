@@ -1,0 +1,57 @@
+
+/* Class = "UIButton"; normalTitle = "Policy"; ObjectID = "5pG-NJ-4Mi"; */
+"5pG-NJ-4Mi.normalTitle" = "条款";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "6cD-u8-uyc"; */
+"6cD-u8-uyc.text" = "Title";
+
+/* Class = "UILabel"; text = "HAHA!"; ObjectID = "9cd-GK-LZn"; */
+"9cd-GK-LZn.text" = "HAHA!";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JBc-h5-7jw"; */
+"JBc-h5-7jw.text" = "Label";
+
+/* Class = "UIViewController"; title = "Setting"; ObjectID = "Kte-pw-zPF"; */
+"Kte-pw-zPF.title" = "设置";
+
+/* Class = "UILabel"; text = "Vibration (on/off)"; ObjectID = "M71-C5-9DW"; */
+"M71-C5-9DW.text" = "提醒振动模式（开/关）";
+
+/* Class = "UIButton"; normalTitle = "Instruction"; ObjectID = "Nmh-NB-5TN"; */
+"Nmh-NB-5TN.normalTitle" = "教程";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "O5t-mW-Icm"; */
+"O5t-mW-Icm.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "policy"; ObjectID = "Skr-Ge-JEc"; */
+"Skr-Ge-JEc.title" = "条款";
+
+/* Class = "UISegmentedControl"; V79-lV-OdF.segmentTitles[0] = "100"; ObjectID = "V79-lV-OdF"; */
+"V79-lV-OdF.segmentTitles[0]" = "100";
+
+/* Class = "UISegmentedControl"; V79-lV-OdF.segmentTitles[1] = "200"; ObjectID = "V79-lV-OdF"; */
+"V79-lV-OdF.segmentTitles[1]" = "200";
+
+/* Class = "UISegmentedControl"; V79-lV-OdF.segmentTitles[2] = "300"; ObjectID = "V79-lV-OdF"; */
+"V79-lV-OdF.segmentTitles[2]" = "300";
+
+/* Class = "UISegmentedControl"; V79-lV-OdF.segmentTitles[3] = "400"; ObjectID = "V79-lV-OdF"; */
+"V79-lV-OdF.segmentTitles[3]" = "400";
+
+/* Class = "UISegmentedControl"; V79-lV-OdF.segmentTitles[4] = "500"; ObjectID = "V79-lV-OdF"; */
+"V79-lV-OdF.segmentTitles[4]" = "500";
+
+/* Class = "UISegmentedControl"; V79-lV-OdF.segmentTitles[5] = "600"; ObjectID = "V79-lV-OdF"; */
+"V79-lV-OdF.segmentTitles[5]" = "600";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "dnb-dX-L4U"; */
+"dnb-dX-L4U.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Low Power Mode (on/off)"; ObjectID = "qur-3d-hBg"; */
+"qur-3d-hBg.text" = "省电模式（开/关）";
+
+/* Class = "UIViewController"; title = "InstructionViewController"; ObjectID = "v2n-fp-kR6"; */
+"v2n-fp-kR6.title" = "InstructionViewController";
+
+/* Class = "UILabel"; text = "Distance (metres)"; ObjectID = "y2d-NR-BnZ"; */
+"y2d-NR-BnZ.text" = "距离（米）";

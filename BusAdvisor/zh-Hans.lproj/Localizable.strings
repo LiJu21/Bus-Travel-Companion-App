@@ -1,0 +1,73 @@
+/* 
+  Localisable.strings
+  Demo1
+
+ Created by Harry Wang on 28/04/2018.
+ Reference: https://medium.com/lean-localization/ios-localization-tutorial-938231f9f881
+
+  Copyright © 2018 COMP208. All rights reserved.
+*/
+
+"Search for places" = "输入目的地";
+"Setting" = "设置";
+
+"Privacy Policy\
+COMP208 Group21 from University of Liverpool build the BusAdvisor app as a free app. This SERVICE is provided by COMP208 Group21 from University of Liverpool at no cost and is intended for use as is.\
+This page is used to inform application users regarding our policies with the collection, use and disclosure of Personal Information if anyone decided to use our Service.\
+If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.\
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at BusAdvisor unless otherwise defined in this Privacy Policy.\
+Information Collection and Use\
+For a better experience, while using our Service, we may require you to provide us with certain personally information, including but not limited to Li Ju, Qiyao Zuo, Joshua Brown, Yiting Wang, Weiyi Zhang. The information that I request is retained on your device and is not collected by us in any way.\
+The app does use third party services that may collect information used to identify you.\
+Log Data\
+We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (may through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol address, device name, operating system version, location, location record, the configuration of the app when utilizing our Service, and other statistics.\
+Location information\
+This app required your location data to provide specific functionality. Two ways will be used to collect location data. We may receive data directly from your mobile device when your permit app to access your location. We may receive location data from cell tower or Wi-Fi hotspot information.\
+Links to Other Sites\
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.\
+Security\
+We value you trust in providing us your Personal Information, thus we are striving to use acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.\
+Changes to This Privacy Policy\
+We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.\
+Children\
+Our app will comply with the Children's Online Privacy Protection Act(COPPA). These Services do not address anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.\
+Advertisement\
+Advertisement services collect some sort of personally identifiable information as a rule of thumb to make sure they are able to track the effectiveness of their ads or to increase their reach and impact. If you have any issues, please contact us so that we will be able to do necessary actions.\
+Contact Us\
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact us. Please email zwy.tt.liv@gmail.com.\
+\
+\
+References:\
+https://app-privacy-policy-generator.firebaseapp.com/#\
+https://www.iubenda.com/blog/privacy-policy-admob/\
+http://www.docracy.com/6516/mobile-privacy-policy-ad-sponsored-apps-" =
+
+" 隐私条款\
+来自利物浦大学的COMP208 Group21构建了免费应用程序BusAdvisor。本服务由利物浦大学的COMP208 Group21免费提供，旨在按原样使用。\
+如果有人决定使用我们的服务，本网页用于向应用程序使用者通知我们的政策，收集，使用和披露个人信息。\
+如果您选择使用我们的服务，那么您同意收集和使用与本政策相关的信息。我收集的个人信息用于提供和改进服务。除本隐私政策中所述外，我们不会使用或与任何人分享您的信息。\
+本隐私政策中使用的术语与我们的条款和条件具有相同的含义，除非本隐私政策中另有定义，否则可在BusAdvisor中访问。\
+信息收集和使用\
+为了获得更好的体验，在使用我们的服务时，我们可能会要求您向我们提供某些个人信息，包括但不限于Li Ju, Qiyao Zuo, Joshua Brown, Yiting Wang, Weiyi Zhang。我请求的信息保留在您的设备上，不以任何方式收集。\
+该应用确实使用可能收集用于识别您身份的信息的第三方服务。\
+数据记录\
+我们希望通知您，每当您使用我们的服务时，如果应用程序出现错误，我们会在您的手机上收集数据和信息（可能通过第三方产品），称为数据记录。 此数据记录可能包含您的设备互联网协议地址，设备名称，操作系统版本，位置，位置记录，使用我们服务时应用程序的配置等信息以及其他统计信息。\
+位置信息\
+这个应用程序需要你的位置数据提供特定的功能。 两种方式将用于收集位置数据。 当您的许可应用程序访问您的位置时，我们可能会直接从您的移动设备接收数据。 我们可能会收到来自手机信号塔或Wi-Fi热点信息的位置数据。\
+链接到其他网站\
+此服务可能包含指向其他网站的链接。 如果您点击第三方链接，您将被引导至该网站。 请注意，这些外部网站并非由我们运营。 因此，我强烈建议您查看这些网站的隐私政策。 我无法控制任何第三方网站或服务的内容，隐私政策或惯例，也不承担任何责任。\
+安全性\
+我们非常重视您向我们提供您个人信息的信任，因此我们正在努力使用可接受的方式来保护它。 但请记住，没有任何通过互联网传输的方法或电子存储方法是100％安全可靠的，我不能保证其绝对安全。\
+隐私条款的变更\
+我们可能会不时更新我们的隐私政策。 因此，建议您定期查看本页面以了解是否有任何更改。 我们会通过在此页面上发布新的隐私政策通知您条款有更改。 这些更改在发布在此页面后立即生效。\
+儿童\
+我们的应用程序将遵守儿童在线隐私保护法案（COPPA）。 这些服务不针对13岁以下的任何人。如果您是父母或监护人，并且您知道您的孩子向我们提供了个人信息，请与我们联系，以便我们能够采取必要的行动。\
+广告\
+作为一种经验法则，广告服务会收集某种个人身份信息，以确保他们能够跟踪广告的有效性或扩大其影响力。 如果您有任何问题，请与我们联系，以便我们能够采取必要的行动。\
+联系我们\
+如果您对我的隐私政策有任何疑问或建议，请随时与我们联系。 请发送电子邮件至zwy.tt.liv@gmail.com。\
+References:\
+https://app-privacy-policy-generator.firebaseapp.com/#\
+https://www.iubenda.com/blog/privacy-policy-admob/\
+http://www.docracy.com/6516/mobile-privacy-policy-ad-sponsored-apps-\
+";
